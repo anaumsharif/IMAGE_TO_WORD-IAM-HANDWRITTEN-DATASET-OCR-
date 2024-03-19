@@ -1,3 +1,8 @@
  IMAGE TO WORD -- OCR 
  Using IAM DATASETS
  Optical character recognition or optical character reader is the electronic or mechanical conversion of images of typed,handwritten or printed text into machine-encoded text, whether from a scanned document, a photo of a document, a scene photo or from subtitle text superimposed on an image.
+Optical character recognition (OCR) – targets typewritten text, one glyph or character at a time.
+Optical word recognition – targets typewritten text, one word at a time (for languages that use a space as a word divider). Usually just called "OCR".
+Intelligent character recognition (ICR) – also targets handwritten printscript or cursive text one glyph or character at a time, usually involving machine learning.
+Intelligent word recognition (IWR) – also targets handwritten printscript or cursive text, one word at a time. This is especially useful for languages where glyphs are not separated in cursive script.
+OCR is generally an offline process, which analyses a static document. There are cloud based services which provide an online OCR API service. Handwriting movement analysis can be used as input to handwriting recognition. Instead of merely using the shapes of glyphs and words, this technique is able to capture motion, such as the order in which segments are drawn, the direction, and the pattern of putting the pen down and lifting it. This additional information can make the process more accurate. This technology is also known as "online character recognition", "dynamic character recognition", "real-time character recognition", and "intelligent character recognition".
